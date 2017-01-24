@@ -5,6 +5,7 @@ Random scripts for bulk DB updates
 ## Fix Link Types
 
 Fixes [#1245](https://github.com/newamericafoundation/newamerica-cms/issues/1245) for legacy posts
+- Swap out `os.getenv("LOCAL_DB_URL")` with one of the Environment variables below
 
 ### Environment variables:
 ```sh
