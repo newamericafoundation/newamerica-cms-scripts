@@ -5,7 +5,8 @@ Random scripts for bulk DB updates
 ## Fix Link Types
 
 Fixes [#1245](https://github.com/newamericafoundation/newamerica-cms/issues/1245) for legacy posts
-- Swap out `os.getenv("LOCAL_DB_URL")` with one of the Environment variables below
+- Make sure you've installed and are logged into [Heroku-CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- Swap out `os.getenv("LOCAL_DB_URL")` with one of the environment variables below
 
 ### Environment variables:
 ```sh
