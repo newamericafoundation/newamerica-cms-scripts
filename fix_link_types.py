@@ -3,7 +3,7 @@
 import os
 import psycopg2
 
-conn = psycopg2.connect(os.getenv("HEROKU_STAGING_DB_URL"))
+conn = psycopg2.connect(os.getenv("LOCAL_DB_URL"))
 cur = conn.cursor()
 
 cur.execute("SELECT page_ptr_id, body FROM home_post WHERE body LIKE '%linktype=\\\\\"link\\\\\"%';")
