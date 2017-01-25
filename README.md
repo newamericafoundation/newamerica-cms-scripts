@@ -2,9 +2,9 @@
 
 Random scripts for bulk DB updates
 
-## Fix Link Types
+## Fix Link Types & Fix Embed Types
 
-Fixes [#1245](https://github.com/newamericafoundation/newamerica-cms/issues/1245) for legacy posts
+Fixes [#1245](https://github.com/newamericafoundation/newamerica-cms/issues/1245) & [#1246](https://github.com/newamericafoundation/newamerica-cms/issues/1246) for legacy posts
 - Make sure you've installed and are logged into [Heroku-CLI](https://devcenter.heroku.com/articles/heroku-cli)
 - Swap out `os.getenv("LOCAL_DB_URL")` with one of the environment variables below
 
